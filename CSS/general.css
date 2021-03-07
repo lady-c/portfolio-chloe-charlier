@@ -1,0 +1,169 @@
+body {
+    margin: auto 0;
+    font-family: Arial;
+    background-color: #dddbd2;
+}
+
+/*COVER*/
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 50vh;
+    background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        height: 20vh;
+    }
+}
+
+.cover {
+    width: 73vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .cover {
+        width: 30vh;
+    }
+}
+
+/*NAV*/
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 0;
+    background-color: #266349;
+    justify-content: center;
+}
+
+.main-nav li {
+    color: black;
+}
+
+.main-nav a {
+    color: black;
+    font-family: 'Spectral', serif;
+}
+
+.main-nav a:hover {
+    color: rgb(39, 39, 39);
+}
+
+/*reduce text size of the nav bar on small screen*/
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 1em;
+        padding: 0;
+    }
+}
+
+li {
+    padding: 10px;
+    font-family: 'Spectral', serif;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Spectral', serif;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 8px;
+    background-color: #266349;
+    color: rgb(0, 0, 0);
+    margin-top: 300px;
+}
+
+footer>p {
+    font-family: 'Spectral', serif;
+    text-align: center;
+    font-size: 17px;
+}
+
+/*GRID*/
+
+.portfolio {
+    display: flex;
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+/* make all the columns on top on each other on small screen*/
+@media only screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-content: space-between;
+    flex: 1;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .column {
+        max-width: 100%;
+    }
+}
+
+/* TABLES */
+
+.stats {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Spectral', serif;
+    font-size: 18px;
+}
+
+.stats td {
+    padding: 10px;
+    background-color: white;
+}
+
+
+.contact {
+    display: flex;
+    list-style: none;
+    font-size: 1.5em;
+    margin: 0;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/*PARAGRAPH*/
+
+p {
+    font-family: 'Spectral', serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px;
+    text-align: justify
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 18px;
+        margin: auto;
+    }
+}

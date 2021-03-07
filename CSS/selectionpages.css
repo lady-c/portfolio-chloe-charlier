@@ -1,0 +1,79 @@
+.zone {
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.game:hover {
+    -webkit-transform: rotate(-5deg);
+    -moz-box-shadow: #bd34a6cc 0px 10px 25px, inset rgba(207, 162, 200, 0.8) 0px -10px 20px;
+    -o-box-shadow: rgba(189, 52, 166, 0.8) 0px 10px 25px, inset rgba(207, 162, 200, 0.8) 0px -10px 20px;
+    box-shadow: rgba(189, 52, 166, 0.8) 0px 10px 25px, inset rgba(207, 162, 200, 0.8) 0px -10px 20px;
+}
+
+.roleplay:hover {
+    -webkit-transform: rotate(-5deg);
+    -moz-box-shadow: #e6ff02cc 0px 10px 25px, inset rgba(213, 224, 115, 0.745) 0px -10px 20px;
+    -o-box-shadow: rgba(230, 255, 2, 0.8) 0px 10px 25px, inset rgba(213, 224, 115, 0.747) 0px -10px 20px;
+    box-shadow: rgba(230, 255, 2, 0.8) 0px 10px 25px, inset rgba(213, 224, 115, 0.747) 0px -10px 20px;
+}
+
+.writting:hover {
+    -webkit-transform: rotate(-5deg);
+    -moz-box-shadow: #0ed3dacc 0px 10px 25px, inset rgba(124, 209, 212, 0.8) 0px -10px 20px;
+    -o-box-shadow: rgba(14, 211, 218, 0.8) 0px 10px 25px, inset rgba(124, 209, 212, 0.8) 0px -10px 20px;
+    box-shadow: rgba(14, 211, 218, 0.8) 0px 10px 25px, inset rgba(124, 209, 212, 0.8) 0px -10px 20px;
+}
+
+.logo:hover {
+    -webkit-transform: rotate(+5deg);
+    -moz-box-shadow: #d31a1acc 0px 10px 25px, inset rgba(211, 26, 26, 0.8) 0px -10px 20px;
+    -o-box-shadow: rgba(211, 26, 26, 0.8) 0px 10px 25px, inset rgba(211, 26, 26, 0.8) 0px -10px 20px;
+    box-shadow: rgba(211, 26, 26, 0.8) 0px 10px 25px, inset rgba(211, 26, 26, 0.8) 0px -10px 20px;
+}
+
+.vector:hover {
+    -webkit-transform: rotate(+5deg);
+    -moz-box-shadow: #9d1c62 0px 10px 25px, inset #9d1c62 0px -10px 20px;
+    -o-box-shadow: #9d1c62 0px 10px 25px, inset #9d1c62 0px -10px 20px;
+    box-shadow: #9d1c62 0px 10px 25px, inset #9d1c62 0px -10px 20px;
+}
+
+.book:hover {
+    -webkit-transform: rotate(+5deg);
+    -moz-box-shadow: #000000 0px 10px 25px, inset #000000 0px -10px 20px;
+    -o-box-shadow: #000000 0px 10px 25px, inset #000000 0px -10px 20px;
+    box-shadow: #000000 0px 10px 25px, inset #000000 0px -10px 20px;
+}
+
+.box {
+    background-color: rgb(238, 241, 210);
+    padding: 0px;
+    margin: 20px;
+}
+
+.box>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box>a>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.rowv2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .rowv2 {
+        flex-direction: column;
+    }
+}
