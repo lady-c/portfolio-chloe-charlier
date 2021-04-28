@@ -33,9 +33,9 @@
 
 .vector:hover {
     -webkit-transform: rotate(+5deg);
-    -moz-box-shadow: #9d1c62 0px 10px 25px, inset #9d1c62 0px -10px 20px;
-    -o-box-shadow: #9d1c62 0px 10px 25px, inset #9d1c62 0px -10px 20px;
-    box-shadow: #9d1c62 0px 10px 25px, inset #9d1c62 0px -10px 20px;
+    -moz-box-shadow: #ebc6de 0px 10px 25px, inset #ebc6de 0px -10px 20px;
+    -o-box-shadow: #ebc6de 0px 10px 25px, inset #ebc6de 0px -10px 20px;
+    box-shadow: #ebc6de 0px 10px 25px, inset #ebc6de 0px -10px 20px;
 }
 
 .book:hover {
@@ -43,6 +43,13 @@
     -moz-box-shadow: #000000 0px 10px 25px, inset #000000 0px -10px 20px;
     -o-box-shadow: #000000 0px 10px 25px, inset #000000 0px -10px 20px;
     box-shadow: #000000 0px 10px 25px, inset #000000 0px -10px 20px;
+}
+
+.uiux:hover {
+    -webkit-transform: rotate(+5deg);
+    -moz-box-shadow: #4a66b0 0px 10px 25px, inset #4a66b0 0px -10px 20px;
+    -o-box-shadow: #4a66b0 0px 10px 25px, inset #4a66b0 0px -10px 20px;
+    box-shadow: #4a66b0 0px 10px 25px, inset #4a66b0 0px -10px 20px;
 }
 
 .box {
@@ -68,7 +75,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
