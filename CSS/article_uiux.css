@@ -1,0 +1,96 @@
+.separator {
+    background-color: #227451;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.figma_navbar {
+    width: 985px;
+    height: 379px;
+}
+
+.figma_gifnavbar {
+    width: 439px;
+    height: 493px;
+}
+
+.figma_gameui {
+    width: 257px;
+    height: 464px;
+}
+
+.figma_gifgameui {
+    width: 439px;
+    height: 439px;
+}
+
+.rowv4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* make all the columns on top on each other on small screen*/
+@media only screen and (max-width: 600px) {
+    .rowv4 {
+        flex-direction: column;
+    }
+}
+
+.figma_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.figma_content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figma_content_row {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.description {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.figma_gifinbox {
+    width: 432px;
+    height: 484px;
+}
+
+.inbox_assets {
+    width: 432px;
+    height: 1421px;
+    margin-top: 20px;
+}
+
+.inbox_sideoverlay {
+    width: 362px;
+    height: 837px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.inbox_homescreen {
+    width: 388px;
+    height: 837px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.inbox_newemail {
+    width: 388px;
+    height: 755px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}

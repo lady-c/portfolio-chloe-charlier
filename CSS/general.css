@@ -35,21 +35,21 @@ body {
     list-style: none;
     font-size: 1.2rem;
     margin: 0;
-    background-color: #266349;
+    background-color: #f8da55;
     justify-content: center;
 }
 
 .main-nav li {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .main-nav a {
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: 'Spectral', serif;
 }
 
 .main-nav a:hover {
-    color: rgb(39, 39, 39);
+    color: rgba(100, 100, 100, 0.541);
 }
 
 /*reduce text size of the nav bar on small screen*/
@@ -74,16 +74,16 @@ a {
 /* FOOTER */
 
 footer {
-    padding: 8px;
-    background-color: #266349;
+    padding: 1px;
+    background-color: #f8da55;
     color: rgb(0, 0, 0);
-    margin-top: 300px;
+    margin-top: 400px;
 }
 
 footer>p {
     font-family: 'Spectral', serif;
     text-align: center;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 /*GRID*/
