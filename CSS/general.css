@@ -122,7 +122,7 @@ p {
 /*change text size of the nav bar on small screen*/
 @media screen and (max-width: 600px) {
     .main-nav {
-        font-size: 0.5em;
+        font-size: 0.7em;
     }
 
     /* .row makes all the columns on top on each other on small screen*/
@@ -146,6 +146,5 @@ p {
 
     p {
         font-size: 14px;
-        margin: auto;
     }
 }
