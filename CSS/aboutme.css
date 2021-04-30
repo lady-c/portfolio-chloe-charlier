@@ -93,4 +93,10 @@
     .contactinfo {
         flex-direction: row;
     }
+
+    .button {
+        padding: 20px 40px;
+        margin: auto;
+        font-size: 12px;
+    }
 }

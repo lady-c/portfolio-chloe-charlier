@@ -119,6 +119,12 @@ p {
     text-align: justify
 }
 
+.flexbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 /*change text size of the nav bar on small screen*/
 @media screen and (max-width: 600px) {
     .main-nav {
@@ -146,5 +152,10 @@ p {
 
     p {
         font-size: 14px;
+    }
+
+    .flexbutton {
+        flex-direction: column;
+        justify-content: center;
     }
 }
