@@ -13,7 +13,7 @@ body {
 }
 
 .cover {
-    max-width: 70vh;
+    max-height: 40vh;
 }
 
 /*NAV*/
@@ -122,7 +122,7 @@ p {
 /*change text size of the nav bar on small screen*/
 @media screen and (max-width: 600px) {
     .main-nav {
-        font-size: 0.7rem;
+        font-size: 0.5em;
     }
 
     /* .row makes all the columns on top on each other on small screen*/
