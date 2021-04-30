@@ -6,22 +6,18 @@
 
 .figma_navbar {
     width: 985px;
-    height: 379px;
 }
 
 .figma_gifnavbar {
     width: 439px;
-    height: 493px;
 }
 
 .figma_gameui {
     width: 257px;
-    height: 464px;
 }
 
 .figma_gifgameui {
     width: 439px;
-    height: 439px;
 }
 
 .rowv4 {
@@ -30,13 +26,6 @@
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-}
-
-/* make all the columns on top on each other on small screen*/
-@media only screen and (max-width: 600px) {
-    .rowv4 {
-        flex-direction: column;
-    }
 }
 
 .figma_container {
@@ -64,33 +53,99 @@
 
 .figma_gifinbox {
     width: 432px;
-    height: 484px;
 }
 
 .inbox_assets {
     width: 432px;
-    height: 1421px;
     margin-top: 20px;
 }
 
 .inbox_sideoverlay {
     width: 362px;
-    height: 837px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .inbox_homescreen {
     width: 388px;
-    height: 837px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .inbox_newemail {
     width: 388px;
-    height: 755px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
+}
+
+/* make all the columns on top on each other on small screen*/
+@media screen and (max-width: 600px) {
+
+    .rowv4 {
+        flex-direction: column;
+    }
+
+    .rowv4>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .figma_navbar {
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .figma_gifnavbar {
+        width: 80%;
+    }
+
+    .figma_gameui {
+        width: 60%;
+    }
+
+    .figma_gifgameui {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .figma_gifinbox {
+        width: 90%;
+    }
+
+    .inbox_assets {
+        width: 70%;
+    }
+
+    .inbox_sideoverlay {
+        width: 70%;
+    }
+
+    .inbox_newemail {
+        width: 70%;
+    }
+
+    .inbox_homescreen {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .figma_content_row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .figma_container {
+        align-items: center;
+    }
+
+    .figma_container>div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }

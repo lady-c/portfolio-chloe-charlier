@@ -27,35 +27,12 @@
 
 .medium {
     width: 439px;
-    height: 133px;
-    left: 0px;
-    top: 963px;
+    object-fit: contain;
 }
 
 .logosmall {
     width: 207px;
-    height: 172px;
-    left: 116px;
-    top: 1102px;
     object-fit: contain;
-}
-
-@media only screen and (max-width: 600px) {
-    .big {
-        max-width: 400px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .small {
-        max-width: 300px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .logosmall {
-        max-width: 300px;
-    }
 }
 
 .design {
@@ -71,18 +48,12 @@
     flex: 0.7;
 }
 
-/* make all the columns on top on each other on small screen*/
-@media only screen and (max-width: 600px) {
-    .rowv3 {
-        flex-direction: column;
-    }
-}
 
 .title {
-    width: 348px;
+    /*    width: 348px;
     height: 294px;
     left: 91px;
-    top: 616px;
+    top: 616px;*/
     font-family: Anton, sans serif;
     font-style: normal;
     font-weight: normal;
@@ -92,15 +63,41 @@
     text-transform: uppercase;
 }
 
-@media only screen and (max-width: 600px) {
-    .title {
-        font-size: 2em;
-        padding: 0;
-    }
-}
-
 .separator {
     background-color: #227451;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 1.5em;
+        line-height: 75px;
+    }
+
+    .big {
+        max-width: 100%;
+    }
+
+    .small {
+        max-width: 50%;
+    }
+
+    .logosmall {
+        max-width: 40%;
+    }
+
+    .medium {
+        max-width: 80%;
+    }
+
+    /* make all the columns on top on each other on small screen*/
+
+    .rowv3 {
+        flex-direction: column;
+    }
+
+    .design {
+        margin-top: 10px;
+    }
 }
