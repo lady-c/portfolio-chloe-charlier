@@ -79,6 +79,12 @@
     margin-top: 20px;
 }
 
+@media screen and (min-width: 600px) {
+    .texttohide {
+        display: none;
+    }
+}
+
 /* make all the columns on top on each other on small screen*/
 @media screen and (max-width: 600px) {
 
@@ -108,20 +114,22 @@
     }
 
     .figma_gifgameui {
-        width: 90%;
+        width: 80%;
         margin-bottom: 20px;
     }
 
     .figma_gifinbox {
-        width: 90%;
+        width: 80%;
     }
 
     .inbox_assets {
         width: 70%;
+        margin-bottom: 20px;
     }
 
     .inbox_sideoverlay {
         width: 70%;
+        margin-top: 20px;
     }
 
     .inbox_newemail {
@@ -148,4 +156,12 @@
         align-items: center;
     }
 
+    .textdescription {
+        display: none;
+    }
+
+    p {
+        margin: 10px auto 20px auto;
+        text-align: center;
+    }
 }
