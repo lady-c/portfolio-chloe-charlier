@@ -28,7 +28,7 @@
     padding: 30px 64px;
     text-align: center;
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 18px;
     transition-duration: 0.4s;
     font-family: 'Spectral', serif;
@@ -36,7 +36,7 @@
 }
 
 .button:hover {
-    background-color: #266349;
+    background-color: #bb7b04;
     color: white;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
@@ -51,4 +51,47 @@
     background-color: #227451;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.containcontact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactimg {
+    max-width: 60px;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .profile {
+        max-width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profile>img {
+        max-width: 100px;
+    }
+
+    .containcontact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactimg {
+        max-width: 50px;
+        margin-right: 20px;
+    }
+
+    .contactinfo {
+        flex-direction: row;
+    }
 }

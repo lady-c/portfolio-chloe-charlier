@@ -20,7 +20,7 @@ body {
 .main-nav {
     display: flex;
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0;
     background-color: #f8da55;
     justify-content: center;
@@ -109,15 +109,6 @@ footer>p {
 }
 
 
-.contact {
-    display: flex;
-    list-style: none;
-    font-size: 1.5em;
-    margin: 0;
-    justify-content: center;
-    padding-top: 50px;
-}
-
 /*PARAGRAPH*/
 
 p {
@@ -129,41 +120,32 @@ p {
 }
 
 /*change text size of the nav bar on small screen*/
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .main-nav {
-        font-size: 16px;
+        font-size: 0.7rem;
     }
-}
 
-/* make all the columns on top on each other on small screen*/
-@media only screen and (max-width: 600px) {
+    /* .row makes all the columns on top on each other on small screen*/
+
     .row {
         display: flex;
         flex-direction: column;
     }
-}
 
-@media only screen and (max-width: 600px) {
     .column {
         max-width: 100%;
     }
-}
 
-@media only screen and (max-width: 600px) {
     .container {
         max-height: 20vh;
     }
-}
 
-@media only screen and (max-width: 600px) {
     .cover {
         max-height: 20vh;
     }
-}
 
-@media only screen and (max-width: 600px) {
     p {
-        font-size: 16px;
+        font-size: 14px;
         margin: auto;
     }
 }
