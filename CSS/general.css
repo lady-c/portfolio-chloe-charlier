@@ -3,17 +3,18 @@ body {
     background-color: #dddbd2;
 }
 
-/*COVER*/
-.container {
+/*HEADER*/
+
+.header {
+    background-color: #f8da55;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    max-height: 50vh;
-    background-color: white;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 0px 10px 0px;
 }
 
-.cover {
-    max-height: 40vh;
+.imgheader {
+    max-height: 60px;
 }
 
 /*NAV*/
@@ -157,5 +158,9 @@ p {
     .flexbutton {
         flex-direction: column;
         justify-content: center;
+    }
+
+    .imgheader {
+        max-width: 30px;
     }
 }
