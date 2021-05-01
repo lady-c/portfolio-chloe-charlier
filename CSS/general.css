@@ -1,6 +1,17 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
     margin: auto 0;
     background-color: #dddbd2;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
 }
 
 /*HEADER*/
@@ -34,6 +45,7 @@ body {
 .main-nav a {
     color: rgb(0, 0, 0);
     font-family: 'Spectral', serif;
+    text-transform: uppercase;
 }
 
 .main-nav a:hover {
