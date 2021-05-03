@@ -44,3 +44,44 @@
     width: 100%;
     height: 100%;
 }
+
+.smallcontainer p {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.description p {
+    text-align: center;
+    margin: 40px
+}
+
+@media screen and (max-width: 600px) {
+    .bookcontainer {
+        display: none;
+    }
+
+    .smallscreen_bookcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        max-width: 90vw;
+    }
+
+    .smallcontainer p {
+        margin: 20px auto;
+    }
+
+    .push {
+        margin: 40px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .smallscreen_bookcontainer {
+        display: none;
+    }
+}
