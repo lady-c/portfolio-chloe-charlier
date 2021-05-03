@@ -83,15 +83,14 @@ footer>p {
 
 .portfolio {
     display: flex;
-    margin: 15px;
+    margin-top: 60px;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-    max-width: 1350px;
+    width: 70vw;
     margin: 0 auto;
 }
 
@@ -149,6 +148,7 @@ p {
     .row {
         display: flex;
         flex-direction: column;
+        width: 90vw;
     }
 
     .column {

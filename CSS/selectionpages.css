@@ -26,16 +26,16 @@
 
 .logo:hover {
     -webkit-transform: rotate(+5deg);
-    -moz-box-shadow: #d31a1acc 0px 10px 25px, inset rgba(211, 26, 26, 0.8) 0px -10px 20px;
-    -o-box-shadow: rgba(211, 26, 26, 0.8) 0px 10px 25px, inset rgba(211, 26, 26, 0.8) 0px -10px 20px;
-    box-shadow: rgba(211, 26, 26, 0.8) 0px 10px 25px, inset rgba(211, 26, 26, 0.8) 0px -10px 20px;
+    -moz-box-shadow: #d31a1acc 0px 10px 25px, inset #d31a1acc 0px -10px 20px;
+    -o-box-shadow: #d31a1acc 0px 10px 25px, inset #d31a1acc 0px -10px 20px;
+    box-shadow: #d31a1acc 0px 10px 25px, inset #d31a1acc 0px -10px 20px;
 }
 
 .vector:hover {
     -webkit-transform: rotate(+5deg);
-    -moz-box-shadow: #ebc6de 0px 10px 25px, inset #ebc6de 0px -10px 20px;
-    -o-box-shadow: #ebc6de 0px 10px 25px, inset #ebc6de 0px -10px 20px;
-    box-shadow: #ebc6de 0px 10px 25px, inset #ebc6de 0px -10px 20px;
+    -moz-box-shadow: #b60f9a 0px 10px 25px, inset #b60f9a 0px -10px 20px;
+    -o-box-shadow: #b60f9a 0px 10px 25px, inset #b60f9a 0px -10px 20px;
+    box-shadow: #b60f9a 0px 10px 25px, inset #b60f9a 0px -10px 20px;
 }
 
 .book:hover {
@@ -47,13 +47,12 @@
 
 .uiux:hover {
     -webkit-transform: rotate(+5deg);
-    -moz-box-shadow: #4a66b0 0px 10px 25px, inset #4a66b0 0px -10px 20px;
-    -o-box-shadow: #4a66b0 0px 10px 25px, inset #4a66b0 0px -10px 20px;
-    box-shadow: #4a66b0 0px 10px 25px, inset #4a66b0 0px -10px 20px;
+    -moz-box-shadow: #ffffff 0px 10px 25px, inset #ffffff 0px -10px 20px;
+    -o-box-shadow: #ffffff 0px 10px 25px, inset #ffffff 0px -10px 20px;
+    box-shadow: #ffffff 0px 10px 25px, inset #ffffff 0px -10px 20px;
 }
 
 .box {
-    background-color: rgb(238, 241, 210);
     padding: 0px;
     margin: 20px;
 }
@@ -70,17 +69,22 @@
     object-fit: cover;
 }
 
-.rowv2 {
+.longrow {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 1500px;
-    margin: 0 auto;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.push {
+    height: 20vh;
 }
 
 @media only screen and (max-width: 600px) {
-    .rowv2 {
+    .longrow {
         flex-direction: column;
+    }
+
+    .push {
+        height: 8vh;
     }
 }
