@@ -83,7 +83,7 @@ footer>p {
 
 .portfolio {
     display: flex;
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 
 .row {
