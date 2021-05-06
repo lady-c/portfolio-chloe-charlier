@@ -4,34 +4,27 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*    width: 100%;
-    max-width: auto;
-    margin-left: 100px;
-    margin-right: 100px;*/
     margin-left: auto;
     margin-right: auto;
 }
 
 .big {
-    width: 60rem;
+    max-width: 45vw;
     object-fit: contain;
 }
 
 .small {
-    width: 217px;
-    height: 495px;
-    left: 1132px;
-    top: 0px;
+    max-width: 15vw;
     object-fit: contain;
 }
 
 .medium {
-    width: 439px;
+    max-width: 25vw;
     object-fit: contain;
 }
 
 .logosmall {
-    width: 207px;
+    max-width: 15vw;
     object-fit: contain;
 }
 
@@ -50,10 +43,6 @@
 
 
 .title {
-    /*    width: 348px;
-    height: 294px;
-    left: 91px;
-    top: 616px;*/
     font-family: Anton, sans serif;
     font-style: normal;
     font-weight: normal;
@@ -64,7 +53,7 @@
 }
 
 .separator {
-    background-color: #227451;
+    background-color: #f8da55;
     margin-top: 30px;
     margin-bottom: 30px;
 }
