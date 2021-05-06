@@ -6,32 +6,38 @@
 }
 
 .images {
-    width: 20vw;
+    max-width: 20vw;
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(5px 5px 5px #222222);
 }
 
 .artcard {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
+    width: 25vw;
+}
+
+.corner {
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 800px) {
     .artgrid {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        max-width: 100%;
     }
 
     .artcard {
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
+        width: 95vw;
     }
 
     .images {
         margin-top: 50px;
         margin-bottom: 15px;
-        width: 80%;
+        max-width: 85vw;
     }
 }

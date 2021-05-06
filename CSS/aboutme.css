@@ -21,7 +21,7 @@
 }
 
 .button {
-    background-color: white;
+    background-color: #f8da55;
     color: black;
     border: none;
     padding: 30px 64px;
@@ -35,8 +35,7 @@
 }
 
 .button:hover {
-    background-color: #bb7b04;
-    color: white;
+    background-color: #f8da55d5;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
