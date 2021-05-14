@@ -55,9 +55,27 @@
     font-size: 20px;
     border-radius: 18px;
     transition-duration: 0.4s;
-    font-family: 'Spectral',
-        serif;
+    font-family: 'Spectral', serif;
     margin-top: 50px;
+}
+
+.smallbutton {
+    background-color: #f8da55;
+    color: black;
+    padding: 18px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 18px;
+    transition-duration: 0.4s;
+    font-family: 'Spectral', serif;
+    margin-top: 10px;
+}
+
+.smallbutton:hover {
+    background-color: #f8da55d5;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .button:hover {
@@ -71,8 +89,20 @@
     padding-bottom: 50px;
 }
 
+/*.video-container {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-container iframe {
+    width: 840px;
+    height: 630px;
+}*/
+
 .screenshot {
-    max-width: 800px;
+    max-width: 37vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
