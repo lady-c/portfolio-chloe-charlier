@@ -104,6 +104,11 @@ footer>p {
     flex: 1;
 }
 
+.small {
+    max-width: 75vw;
+    margin: auto;
+}
+
 
 /* TABLES */
 
