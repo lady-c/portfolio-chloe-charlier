@@ -79,6 +79,11 @@
     height: 20vh;
 }
 
+.margin {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
 @media only screen and (max-width: 600px) {
     .longrow {
         flex-direction: column;

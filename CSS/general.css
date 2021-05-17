@@ -14,6 +14,10 @@ body {
     flex: 1 0 auto;
 }
 
+.icon {
+    max-width: 40px;
+}
+
 /*HEADER*/
 
 .header {
@@ -83,7 +87,6 @@ footer>p {
 
 .portfolio {
     display: flex;
-    margin-top: 60px;
 }
 
 .row {
