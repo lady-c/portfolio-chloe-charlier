@@ -184,8 +184,8 @@ p {
 }
 
 @media screen and (max-width: 600px) {
-    .main-nav {
-        font-size: 0.6em;
+    .main-nav a {
+        font-size: 12px;
     }
 
     .row {
@@ -217,6 +217,10 @@ p {
 
     footer {
         margin-top: 10vh;
+    }
+
+    li {
+        padding: 10px;
     }
 
 }
