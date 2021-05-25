@@ -54,7 +54,7 @@
 
 .box {
     padding: 0px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .box>img {
@@ -71,12 +71,12 @@
 
 .longrow {
     display: flex;
-    max-width: 75vw;
+    max-width: 900px;
     margin: auto;
 }
 
 .push {
-    height: 20vh;
+    height: 10vh;
 }
 
 .margin {
@@ -84,12 +84,22 @@
     margin-bottom: 3vh;
 }
 
+.small {
+    max-width: 900px;
+    margin: auto;
+}
+
+.spacebetween {
+    margin: 0 40px 40px 40px;
+}
+
 @media only screen and (max-width: 600px) {
     .longrow {
         flex-direction: column;
+        max-width: 80vw;
     }
 
     .push {
-        height: 8vh;
+        height: 5vh;
     }
 }

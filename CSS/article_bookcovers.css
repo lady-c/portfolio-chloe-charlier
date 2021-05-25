@@ -52,7 +52,7 @@
 
 .description p {
     text-align: center;
-    margin: 40px
+    margin: 40px auto 20px auto;
 }
 
 @media screen and (max-width: 600px) {

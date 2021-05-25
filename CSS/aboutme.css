@@ -1,5 +1,9 @@
 /*ABOUTME - INDEX*/
 
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 .profile {
     max-width: 200px;
     padding: 10px;
@@ -24,13 +28,13 @@
     background-color: #f8da55;
     color: black;
     border: none;
-    padding: 30px 64px;
+    padding: 15px 47px;
     text-align: center;
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 18px;
     transition-duration: 0.4s;
-    font-family: 'Spectral', serif;
+    font-family: 'Ruda', sans-serif;
     margin-top: 50px;
 }
 
@@ -38,11 +42,6 @@
     background-color: #f8da55d5;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-.containbutton {
-    text-align: center;
-    padding-bottom: 50px;
 }
 
 .separator {
@@ -99,8 +98,9 @@
     }
 
     .button {
-        padding: 20px 40px;
-        margin: auto;
+        padding: 10px 30px;
+        margin: 0;
         font-size: 12px;
     }
+
 }
