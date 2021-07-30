@@ -119,6 +119,29 @@
     margin-right: auto;
 }
 
+.left {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 900px;
+    padding: 0 2vw 0 2vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dialog {
+    list-style-type: none;
+    font-family: 'Spectral', serif;
+    font-size: 18px;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.dialog li {
+    padding: 3px;
+    margin-left: 12px;
+}
+
 /* TABLES */
 
 .stats {
