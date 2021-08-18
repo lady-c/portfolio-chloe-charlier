@@ -20,7 +20,7 @@ body {
 
 }
 
-iframe {
+/*iframe {
     margin: auto;
     border: none;
     height: 100vh;
@@ -31,7 +31,7 @@ iframe {
     max-height: 100vh;
     margin-right: 0px;
     margin-left: auto;
-}
+}*/
 
 .content {
     display: flex;
