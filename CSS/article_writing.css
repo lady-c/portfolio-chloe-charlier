@@ -185,4 +185,13 @@
     .stats {
         font-size: 12px;
     }
+
+    .article_content {
+        width: 90vw;
+    }
+
+    .story {
+        width: 90vw;
+    }
+
 }

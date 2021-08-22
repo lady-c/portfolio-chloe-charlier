@@ -60,11 +60,6 @@
     max-width: 60px;
 }
 
-.hover:hover {
-    -webkit-transform: scale(1.1);
-    transition: all 0.5s;
-}
-
 .contactinfo {
     display: flex;
     flex-direction: column;
@@ -72,6 +67,11 @@
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 40px;
+}
+
+.hover:hover {
+    -webkit-transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 @media screen and (max-width: 600px) {
