@@ -119,6 +119,15 @@
     margin-right: auto;
 }
 
+.story {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    padding: 0 2vw 0 2vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .left {
     display: flex;
     align-items: left;
