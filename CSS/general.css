@@ -99,6 +99,10 @@ a {
     font-family: 'Spectral', serif;
 }
 
+.itchframe {
+    align-self: center;
+}
+
 /* FOOTER */
 
 footer {
