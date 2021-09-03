@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Over+the+Rainbow&family=Syne+Mono&display=swap");
+.main_title {
+  font-size: 60px;
+  text-align: center;
+}
+
+.candy {
+  font-family: 'Amatic SC', cursive;
+}
+
+.coffee {
+  font-family: 'Over the Rainbow', cursive;
+}
+
+.tech {
+  font-family: 'Syne Mono', monospace;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.column p {
+  text-align: center;
+  margin: 2vh 2vw;
+}
+
+.large_img {
+  margin: 3vh auto;
+}
+
+.large_branding {
+  max-width: 45vw;
+  margin: auto 5vw;
+}
+
+.medium_img {
+  max-width: 25vw;
+  margin: auto;
+}
+
+.small_img {
+  max-width: 15vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: auto 2vw;
+}
+
+.logo_branding {
+  max-width: 15vw;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .main_title {
+    font-size: 40px;
+  }
+  .large_img {
+    max-width: 90vw;
+  }
+  .large_branding {
+    max-width: 90vw;
+    margin: auto;
+  }
+  .logo_branding {
+    max-width: 70vw;
+    margin: auto;
+  }
+  .small_img {
+    max-width: 50%;
+    margin-top: 2vh;
+    margin: auto;
+  }
+  .medium_img {
+    max-width: 80%;
+  }
+  /* make all the columns on top on each other on small screen*/
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=style_designs_page.css.map */

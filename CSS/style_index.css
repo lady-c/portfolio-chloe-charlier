@@ -1,0 +1,110 @@
+/*display for columns and row*/
+.flexrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.translated_text {
+  max-width: 900px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.flexcolumn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.only_description {
+  max-width: 30vw;
+  margin: auto;
+}
+
+.profile {
+  max-width: 200px;
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+}
+
+.profile img {
+  max-width: 200px;
+  margin-top: 40px;
+}
+
+/* links style */
+.link_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 15px;
+}
+
+.img_link img {
+  max-width: 60px;
+}
+
+.img_link img:hover {
+  -webkit-transform: scale(1.1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  .flexrow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .profile {
+    max-width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile img {
+    max-width: 40vw;
+  }
+  .link_container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .img_link {
+    margin: 20px;
+  }
+}
+/*# sourceMappingURL=style_index.css.map */

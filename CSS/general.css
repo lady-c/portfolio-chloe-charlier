@@ -17,21 +17,7 @@ body {
     flex-direction: column;
     margin: auto 0;
     background-color: #f1f1f1;
-
 }
-
-/*iframe {
-    margin: auto;
-    border: none;
-    height: 100vh;
-}
-
-.iframe_container {
-    width: 20vw;
-    max-height: 100vh;
-    margin-right: 0px;
-    margin-left: auto;
-}*/
 
 .content {
     display: flex;
@@ -121,10 +107,6 @@ footer>p {
 
 /*GRID*/
 
-.portfolio {
-    display: flex;
-}
-
 .row {
     display: flex;
     flex-direction: row;
@@ -142,7 +124,6 @@ footer>p {
     align-content: space-between;
     flex: 1;
 }
-
 
 /*PARAGRAPH*/
 
@@ -164,20 +145,6 @@ p {
     text-align: center;
     padding-bottom: 15px;
     margin: 0 30px;
-}
-
-@media screen and (max-width: 1100px) {
-
-    .ifram_container {
-        display: none;
-        width: 0px;
-    }
-
-    iframe {
-        display: none;
-        width: 0px;
-    }
-
 }
 
 @media screen and (max-width: 900px) {
@@ -209,7 +176,6 @@ p {
     p {
         font-size: 14px;
     }
-
 
     .imgheader {
         max-height: 30px;
