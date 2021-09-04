@@ -1,0 +1,73 @@
+$backgroundcolor: #f1f1f1;
+$primarycolor: #383436;
+$secondarycolor: #ce641d;
+$my_yellow: #f8da55;
+
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+.main_title {
+    color: $primarycolor;
+    font-family: 'Seaweed Script', cursive;
+    text-align: center;
+    font-size: 40px;
+    margin: 5vh auto;
+    line-height: 200%;
+}
+
+.icon {
+    max-height: 70px;
+}
+
+.artgrid {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-items: flex-end;
+}
+
+.images {
+    max-width: 20vw;
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(5px 5px 5px #222222);
+}
+
+.artcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+
+    p {
+        font-family: 'Seaweed Script', cursive;
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
+.corner {
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .artgrid {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .artcard {
+        margin: 1vh auto 2vh;
+        width: 95vw;
+    }
+
+    .images {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        max-width: 85vw;
+    }
+
+    .main_title {
+        margin: 10vh auto auto;
+    }
+
+}
