@@ -92,8 +92,8 @@ $my_yellow: #f8da55;
 
 .img_link {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     img {
         max-width: 70px;
