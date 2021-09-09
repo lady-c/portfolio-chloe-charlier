@@ -1,0 +1,44 @@
+.artgrid {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-items: flex-end;
+}
+
+.images {
+    max-width: 20vw;
+    /*-webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(5px 5px 5px #222222);*/
+}
+
+.artcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+
+}
+
+.corner {
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .artgrid {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .artcard {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95vw;
+    }
+
+    .images {
+        margin-top: 50px;
+        margin-bottom: 15px;
+        max-width: 85vw;
+    }
+}

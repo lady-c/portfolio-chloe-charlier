@@ -1,0 +1,91 @@
+/*GRID DESIGN&ILLUSTRATIONS */
+
+.rowv3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.big {
+    max-width: 45vw;
+    object-fit: contain;
+}
+
+.small {
+    max-width: 15vw;
+    object-fit: contain;
+}
+
+.medium {
+    max-width: 25vw;
+    object-fit: contain;
+}
+
+.logosmall {
+    max-width: 15vw;
+    object-fit: contain;
+}
+
+.design {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-content: space-between;
+    flex: 0.7;
+}
+
+.title {
+    font-family: Anton, sans serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 147px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.separator {
+    background-color: #f8da55;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 1.5em;
+        line-height: 75px;
+    }
+
+    .big {
+        max-width: 100%;
+    }
+
+    .small {
+        max-width: 50%;
+    }
+
+    .logosmall {
+        max-width: 40%;
+    }
+
+    .medium {
+        max-width: 80%;
+    }
+
+    /* make all the columns on top on each other on small screen*/
+
+    .rowv3 {
+        flex-direction: column;
+    }
+
+    .design {
+        margin-top: 10px;
+    }
+}
