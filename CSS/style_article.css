@@ -154,10 +154,17 @@
 
 .text_link {
   color: #ce641d;
+  display: inline;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #f8da55));
+  background-image: linear-gradient(to right, transparent 50%, #f8da55 50%);
+  background-size: 200%;
+  -webkit-transition: background-position 0.5s;
+  transition: background-position 0.5s;
 }
 
 .text_link:hover {
   color: #383436;
+  background-position: -100%;
 }
 
 /* tabs */

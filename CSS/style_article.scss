@@ -122,9 +122,14 @@ $my_yellow: #f8da55;
 
 .text_link {
     color: $secondarycolor;
+    display: inline;
+    background-image: linear-gradient(to right, transparent 50%, $my_yellow 50%);
+    background-size: 200%;
+    transition: background-position 0.5s;
 
     &:hover {
         color: $primarycolor;
+        background-position: -100%;
     }
 }
 
