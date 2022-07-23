@@ -130,6 +130,19 @@ a {
     align-self: center;
 }
 
+.steamwidget {
+    align-self: center;
+    img {
+        width: 20rem;
+
+        &:hover {
+            -webkit-transform: scale(1.1);
+            transition: all 0.5s;
+        }
+
+        }
+}
+
 
 @media screen and (max-width: 600px) {
 
