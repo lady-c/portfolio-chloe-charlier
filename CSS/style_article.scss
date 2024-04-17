@@ -10,6 +10,21 @@ $my_yellow: #f8da55;
     flex-direction: column;
 }
 
+/* working on it */
+
+.working {
+    align-self: center;
+
+    img {
+        align-self: center;
+        width: 50%;
+    }
+
+    p {
+        align-self: center;
+    }
+}
+
 /* titles style*/
 
 .main_title {

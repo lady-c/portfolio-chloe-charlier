@@ -1,21 +1,26 @@
 /* make a container filling up the page to make the footer sticky to bottom*/
 .main_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+
+/* working on it */
+.working {
+  align-self: center;
+}
+.working img {
+  align-self: center;
+  width: 50%;
+}
+.working p {
+  align-self: center;
 }
 
 /* titles style*/
 .main_title {
   color: #383436;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   text-transform: uppercase;
   text-align: center;
   font-size: 80px;
@@ -32,11 +37,10 @@
 /* dialogues writing*/
 .dialog {
   list-style-type: none;
-  font-family: 'Spectral', serif;
+  font-family: "Spectral", serif;
   font-size: 18px;
   padding: 0px;
 }
-
 .dialog li {
   padding: 3px;
   margin-left: 12px;
@@ -50,33 +54,19 @@
 
 /*display for columns and row*/
 .flexrow {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .translated_text {
   max-width: 900px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .flexcolumn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex-direction: column;
+  flex: 1;
 }
 
 .only_description {
@@ -96,72 +86,44 @@
 
 /* links style */
 .link_container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .img_link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .img_link img {
   max-width: 70px;
 }
-
 .img_link img:hover {
   -webkit-transform: scale(1.1);
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .video_link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 .video_link img {
   max-width: 250px;
 }
-
 .video_link:hover {
   -webkit-transform: scale(1.1);
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .text_link {
   color: #ce641d;
   display: inline;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, #f8da55));
   background-image: linear-gradient(to right, transparent 50%, #f8da55 50%);
   background-size: 200%;
-  -webkit-transition: background-position 0.5s;
   transition: background-position 0.5s;
 }
-
 .text_link:hover {
   color: #383436;
   background-position: -100%;
@@ -169,17 +131,12 @@
 
 /* tabs */
 .stats {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: 'Spectral', serif;
+  justify-content: center;
+  font-family: "Spectral", serif;
   font-size: 18px;
 }
-
 .stats td {
   padding: 10px;
   background-color: white;
@@ -192,10 +149,7 @@
 
 @media screen and (max-width: 1050px) {
   .flexrow {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .only_description {
     max-width: 95vw;
@@ -212,8 +166,7 @@
     font-size: 2em;
   }
   .link_container {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .mobile_description {
     display: block;
@@ -223,5 +176,4 @@
   .stats {
     font-size: 12px;
   }
-}
-/*# sourceMappingURL=style_article.css.map */
+}/*# sourceMappingURL=style_article.css.map */

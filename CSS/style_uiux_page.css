@@ -1,6 +1,6 @@
 .main_title {
   color: #383436;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   text-align: center;
   font-size: 40px;
@@ -12,54 +12,31 @@
 }
 
 .row_gif {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-evenly;
   margin: 10vh 25vw 0px;
 }
 
 .grid_gif {
-  display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   margin: 10vh 25vw 0px;
 }
 
 .column {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-item-align: center;
-      align-self: center;
+  flex-direction: column;
+  align-self: center;
   max-width: 40vw;
 }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-item-align: center;
-      align-self: center;
+  flex-direction: row;
+  align-self: center;
 }
-
 .row p {
   margin: auto 40px;
 }
@@ -104,19 +81,13 @@
     display: none;
   }
 }
-
 @media screen and (max-width: 600px) {
   .largescreen_description {
     display: none;
   }
   .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     max-width: 80vw;
   }
   .row img {
@@ -132,10 +103,7 @@
     max-width: 80vw;
   }
   .row_gif {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin: auto;
   }
   .row_gif img {
@@ -156,5 +124,4 @@
   .inbox_mockup img {
     max-width: 70vw;
   }
-}
-/*# sourceMappingURL=style_uiux_page.css.map */
+}/*# sourceMappingURL=style_uiux_page.css.map */

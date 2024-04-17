@@ -3,16 +3,10 @@ body {
 }
 
 details {
-  font-family: 'Spectral', serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  font-family: "Spectral", serif;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 details summary {
   font-weight: bold;
   text-transform: uppercase;
@@ -21,11 +15,9 @@ details summary {
   list-style: none;
   margin: 5px auto 5px 15px;
 }
-
 details summary:hover {
   cursor: pointer;
 }
-
 details img {
   max-width: 80vw;
   margin: 10px auto 10px 10px;
@@ -38,5 +30,4 @@ hr {
 
 .push {
   margin-top: 5vh;
-}
-/*# sourceMappingURL=navbar.css.map */
+}/*# sourceMappingURL=navbar.css.map */

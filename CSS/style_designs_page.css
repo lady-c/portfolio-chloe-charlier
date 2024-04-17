@@ -5,37 +5,26 @@
 }
 
 .candy {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
 }
 
 .coffee {
-  font-family: 'Over the Rainbow', cursive;
+  font-family: "Over the Rainbow", cursive;
 }
 
 .tech {
-  font-family: 'Syne Mono', monospace;
+  font-family: "Syne Mono", monospace;
 }
 
 .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .column {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .column p {
   text-align: center;
   margin: 2vh 2vw;
@@ -92,10 +81,6 @@
   }
   /* make all the columns on top on each other on small screen*/
   .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
-}
-/*# sourceMappingURL=style_designs_page.css.map */
+}/*# sourceMappingURL=style_designs_page.css.map */

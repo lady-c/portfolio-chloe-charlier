@@ -13,13 +13,8 @@ html {
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: auto 0;
   background-color: #f1f1f1;
 }
@@ -27,19 +22,11 @@ body {
 /*HEADER*/
 .header {
   background-color: #f8da55;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: row;
+  justify-content: center;
   padding: 10px;
 }
-
 .header img {
   max-height: 60px;
   margin-left: 25px;
@@ -48,30 +35,23 @@ body {
 
 /*NAV*/
 .main-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
   font-size: 1.1rem;
   margin: 0;
   background-color: #f8da55;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .main-nav li {
   padding: 15px;
 }
-
 .main-nav a {
-  font-family: 'Ruda', sans-serif;
+  font-family: "Ruda", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   color: #000000;
   text-decoration: none;
 }
-
 .main-nav a:hover {
   color: #ce641d;
 }
@@ -80,21 +60,19 @@ body {
 footer {
   padding: 1px;
   background-color: #f8da55;
-  color: black;
+  color: rgb(0, 0, 0);
   margin-top: 100px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
-
 footer p {
-  font-family: 'Spectral', serif;
+  font-family: "Spectral", serif;
   text-align: center;
   font-size: 12px;
 }
 
 /*PARAGRAPH*/
 p {
-  font-family: 'Spectral', serif;
+  font-family: "Spectral", serif;
   font-size: 18px;
   margin: 10px;
   text-align: justify;
@@ -132,24 +110,17 @@ a {
 }
 
 .itchframe {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .steamwidget {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
-
 .steamwidget img {
   width: 20rem;
 }
-
 .steamwidget img:hover {
   -webkit-transform: scale(1.1);
-  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
@@ -176,7 +147,6 @@ a {
     margin-top: 1vh;
   }
 }
-
 @media screen and (max-width: 1050px) {
   .short_separator {
     margin-bottom: 2vh;
@@ -188,5 +158,4 @@ a {
     border-top: 1px solid;
     margin-top: 2.5vh;
   }
-}
-/*# sourceMappingURL=general_style.css.map */
+}/*# sourceMappingURL=general_style.css.map */
