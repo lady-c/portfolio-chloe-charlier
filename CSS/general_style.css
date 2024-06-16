@@ -55,6 +55,9 @@ body {
 .main-nav a:hover {
   color: #ce641d;
 }
+.main-nav a.selected {
+  text-decoration: underline;
+}
 
 /* FOOTER */
 footer {

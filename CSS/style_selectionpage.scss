@@ -28,6 +28,15 @@ $my_yellow: #f8da55;
     margin-right: 13px;
     align-content: space-between;
     flex: 1;
+
+    p {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: 'Ruda', sans-serif;
+        font-size: 20px;
+        color: #000000;
+    }
 }
 
 .flexcolumn {

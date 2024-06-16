@@ -65,6 +65,10 @@ body {
         &:hover {
             color: $secondarycolor;
         }
+
+        &.selected {
+            text-decoration: underline;
+        }
     }
 }
 
@@ -132,6 +136,7 @@ a {
 
 .steamwidget {
     align-self: center;
+
     img {
         width: 20rem;
 
@@ -140,7 +145,7 @@ a {
             transition: all 0.5s;
         }
 
-        }
+    }
 }
 
 
