@@ -29,39 +29,100 @@
         </ul>
     </nav>
 
-    <p class="main_title">We Are Screwed!</p>
-
-    <hr class="short_separator">
 
     <div class='main_container'>
-        <div class="flexrow">
+        <p class="main_title">We Are Screwed!</p>
 
-            <div class="flexcolumn description">
+        <hr class="short_separator">
 
-                <p><i>The multiverse is in danger! Alone or in a team of up to 4 people, slide into the pilot’s seat,
-                        operate a turret, become a mechanic or even a janitor. There is a lot to do and no time to lose!
-                        Jump in and go above and beyond, where no one has ever screwed up before!</i></p>
+        <div class="flexcolumn only_description">
 
-                <hr class="long_separator">
+            <p><i>The multiverse is in danger! Alone or in a team of up to 4 people, slide into the pilot’s seat,
+                    operate a turret, become a mechanic or even a janitor. There is a lot to do and no time to lose!
+                    Jump in and go above and beyond, where no one has ever screwed up before!</i></p>
 
-                <p>Developed by <a class="text_link" href="https://www.rarebyte.com/">Rarebyte</a>.</p>
-                <p>Everything you will see written in English and French in the game is from me. Most of the
-                    UI is also my work, under the creative direction of Mateusz Gorecki.</p>
+            <hr class="long_separator">
 
-                <br>
-                <br>
+            <p>Developed by <a class="text_link" href="https://www.rarebyte.com/">Rarebyte</a>.</p>
+            <p>My roles: Narrative Designer, UI/UX Designer, Localization Agent.</p>
 
-                <a class="steamwidget" href="https://store.steampowered.com/app/1125830/We_Are_Screwed/">
-                    <img src="./img/We Are Screwed Steam Widget.png">
-                </a>
+            <p>I have written everything in the game. The original language was English, and I also did the complete
+                French localization. My responsabilities included writting a small and funny bio for each characters
+                (playables, and NPCs),
+                quests for each Multivers from a diversified cast of NPCs, names and description for each weapon
+                (Module) and their variants, worlds, ships, maps, enemies, bosses, items, tools... The tone is fun and
+                light,
+                and the humour is absurd with some word plays and space puns and a healthy dose of pop culture
+                references.</p>
+            <p><i>Writing samples in preparation.</i></p>
 
-                <hr class="mobile_separator">
+            <hr class="long_separator">
 
-            </div>
+            <p>Part of my responsabilities included the redesign of the entire UI.</p>
+            <p><b>The problem I had to find a solution for was that the UI was deemed a bit boring, the main color being
+                    dark grey, and that it didn't look very polished.</b></p>
 
-            <div class="flexcolumn illustration">
-                <img class="screenshot" src="./img/WeAreScrewed_titlescreen.jpg">
-            </div>
+            <p><b>Old Dialogue Box vs. the new version.</b></p>
+            <img class="screenshot" src="./img/WAS/was_original_dialoguebox.JPG">
+            <img class="screenshot" src="./img/WAS/was_new_dialoguebox.jpg">
+            <p>The box now resizes vertically to fit the text, the colors are brighter and prettier and the portrait is
+                in a higher definition.</p>
+
+            <p><b>Old tutorial page vs. the new version.</b></p>
+            <img class="screenshot" src="./img/WAS/was_original_tutorial.JPG">
+            <img class="screenshot" src="./img/WAS/was_new_tutorial.jpg">
+            <p>As before, the colors got reworked to make the whole UI prettier and friendlier. One of the UX changes I
+                made on this specific element is that the buttons to accept and consequently, remove the tutorial page,
+                appear only on the last page. This was made in an attempt to make players read the tutorials more, but
+                as any UI/UX designer know, making players read tutorials is never an easy task. In the end, what this
+                taught me was that if people don't want to read, nothing will make them. Ultimately, my goal was to
+                create a playable tutorial instead, because doing is better than reading (I was very inspired by Moving
+                Out), but unfortunately never got the time to design a proper one.</p>
+
+            <p><b>Inspection window, old, concept, and in game.</b></p>
+            <img class="screenshot" src="./img/WAS/was_original_inspection.JPG">
+            <img class="screenshot" src="./img/WAS/was_new_inspection2.png">
+            <img class="screenshot" src="./img/WAS/was_new_inspection.jpg">
+            <p>This UI was particulary important, as this is the one players see the most. This can be triggered on
+                anything they can interract with to give them infos. It means modules, items, weapons, tools, parts of
+                the ship. It was hard to see sometimes, so I made the UI brighter, and used colors to code all the
+                elements so they could know what type of object they were inspecting quickly. I also used colors to
+                highlight the important information, and moved the interaction instructions out to make them more
+                visible as well.</p>
+
+            <p><b>Map selection, ship selection, waiting for players. Old UI and flow.</b></p>
+            <img class="screenshot" src="./img/WAS/was_original_map_selection2.JPG">
+            <img class="screenshot" src="./img/WAS/was_original_ship_selection.JPG">
+            <img class="screenshot" src="./img/WAS/was_original_waiting.JPG">
+
+            <p><b>Map selection, ship selection, waiting for players. New UI and flow.</b></p>
+            <img class="screenshot" src="./img/WAS/was_new_map_selection.jpg">
+            <img class="screenshot" src="./img/WAS/was_new_ship_selection.jpg">
+            <img class="screenshot" src="./img/WAS/was_new_waiting.jpg">
+
+            <p>This was a very interesting UI to rework. This is a screen displayed within a 3D object inside the main
+                scene. Players are using the console inside the Station, so this is a small screen that needs to display
+                very clear information.
+                <br>Colors got reworked, but also the complete layout of each screens. The map selection used to be
+                just a scrollable list and was changed to a full map where players can naviagate from one teleporter to
+                another.
+                <br>The ship selection shows the ship in big, which was made to show off our ships up close and the
+                stats are more visible since they take half of the screen.
+                <br>The last screen is displayed and reminds which map and which ship were chosen. It also displays the
+                portraits of the player characters as well as the prompt "Stand on a button!". The portraits get colored
+                and tilt a bit to the side in "activated state".
+                <br>This was a choice made to answer a problem that we noticed when observing players. After
+                picking a map and a ship, buttons were popping out of the ground on which players had to stand to
+                continue, but either they wouldn't see them right away, or one of them wasn't standing properly on
+                theirs, without knowing it. With the prompt, they know they have to stand on the buttons and with the
+                portraits, they know who is standing on their button properly since they go in "activated state" when
+                they do.</p>
+
+            <!--<a class="steamwidget" href="https://store.steampowered.com/app/1125830/We_Are_Screwed/">
+                <img src="./img/We Are Screwed Steam Widget.png">
+            </a>-->
+
+            <hr class="mobile_separator">
 
         </div>
     </div>
