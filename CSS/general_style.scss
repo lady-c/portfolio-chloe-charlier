@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Ruda:wght@400..900&display=swap');
 
 $backgroundcolor: #f1f1f1;
 $primarycolor: #383436;
@@ -134,6 +135,8 @@ a {
     align-self: center;
 }
 
+/* my own widget */
+
 .steamwidget {
     align-self: center;
 
@@ -147,6 +150,18 @@ a {
 
     }
 }
+
+/* steam widget official */
+
+@media screen and (max-width: 652px) {
+
+    .widgetSteam {
+        display: none;
+    }
+
+}
+
+/* phone screen */
 
 
 @media screen and (max-width: 600px) {

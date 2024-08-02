@@ -129,6 +129,18 @@
   background-position: -100%;
 }
 
+/* caption style */
+.caption {
+  color: #383436;
+  text-align: center;
+  background-color: #f8da55;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5%;
+  font-family: "Rubik Dirt", sans-serif;
+  font-size: 180%;
+}
+
 /* tabs */
 .stats {
   display: flex;

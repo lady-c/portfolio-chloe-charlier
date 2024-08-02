@@ -148,6 +148,19 @@ $my_yellow: #f8da55;
     }
 }
 
+/* caption style */
+
+.caption {
+    color: $primarycolor;
+    text-align: center;
+    background-color: $my_yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 5%;
+    font-family: "Rubik Dirt", sans-serif;
+    font-size: 180%;
+}
+
 /* tabs */
 
 .stats {
@@ -170,6 +183,7 @@ $my_yellow: #f8da55;
 }
 
 @media screen and (max-width: 1050px) {
+
     .flexrow {
         flex-direction: column;
     }
