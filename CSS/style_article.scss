@@ -176,6 +176,30 @@ $my_yellow: #f8da55;
     }
 }
 
+/* links container 6 - IDENTICAL AS IS INDEX */
+
+.link_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img_link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 15px;
+
+    img {
+        max-width: 60px;
+
+        &:hover {
+            -webkit-transform: scale(1.1);
+            transition: all 0.5s;
+        }
+    }
+}
+
 /*hidden stuff for mobile user*/
 
 .mobile_description {
