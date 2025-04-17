@@ -45,7 +45,7 @@ body {
 }
 
 /*NAV*/
-.main-nav {
+/*.main-nav {
     display: flex;
     list-style: none;
     font-size: 1.1rem;
@@ -69,6 +69,37 @@ body {
         }
 
         &.selected {
+            text-decoration: underline;
+        }
+    }
+}*/
+
+.nav-link {
+
+    display: flex;
+    list-style: none;
+    font-size: 1.1rem;
+    margin: 0;
+    background-color: $my_yellow;
+    justify-content: center;
+
+    li {
+        padding: 15px;
+    }
+
+    a {
+        font-family: 'Ruda',
+            sans-serif;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #000000;
+        text-decoration: none;
+
+        &:hover:not(.active) {
+            color: $secondarycolor;
+        }
+
+        &.active {
             text-decoration: underline;
         }
     }
@@ -126,6 +157,7 @@ a {
     color: $primarycolor;
     width: 20%;
     border-top: 1px solid;
+    margin: auto;
 }
 
 .mobile_separator {

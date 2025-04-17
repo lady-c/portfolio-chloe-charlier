@@ -9,3 +9,18 @@ function updateVisitCount() {
             countEl.innerHTML = res.value;
         });
 }
+
+
+fetch('navbar.html')
+    .then(res => res.text())
+    .then(html => {
+        document.getElementById('navbar').innerHTML = html;
+
+        // Read the data-section attribute from <body>
+        const section = document.body.dataset.section;
+        if (!section) return;
+
+        // Highlight the correct link
+        const activeLink = document.querySelector(`a[data-section="${section}"]`);
+        if (activeLink) activeLink.classList.add('active');
+    });
