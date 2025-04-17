@@ -45,34 +45,6 @@ body {
 }
 
 /*NAV*/
-/*.main-nav {
-    display: flex;
-    list-style: none;
-    font-size: 1.1rem;
-    margin: 0;
-    background-color: $my_yellow;
-    justify-content: center;
-
-    li {
-        padding: 15px;
-    }
-
-    a {
-        font-family: 'Ruda', sans-serif;
-        text-transform: uppercase;
-        font-size: 20px;
-        color: #000000;
-        text-decoration: none;
-
-        &:hover {
-            color: $secondarycolor;
-        }
-
-        &.selected {
-            text-decoration: underline;
-        }
-    }
-}*/
 
 .nav-link {
 
